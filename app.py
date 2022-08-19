@@ -24,7 +24,7 @@ import numpy as np
 #with open('xgb_pkl_1' , 'rb') as f:
 #     xgb = pickle.load(f)
 
-pickle_in=open("C:\\Users\\Sahil\\Fraud_project\\fraud_detection_xgb.pkl","rb")
+pickle_in=open("C:\\Users\\srija\\Fraud_project\\fraud_detection_xgb.pkl","rb")
 xgb=pickle.load(pickle_in)
 # Getting Model Features
 score_feat_xgb = xgb.get_booster().feature_names
@@ -33,9 +33,6 @@ score_feat_xgb = xgb.get_booster().feature_names
 # In[3]:
 
 
-#Keeping the raw features
-#raw_features=pd.read_csv("C:\\Users\\Sahil\\Desktop\\Summer\\Project\\RAW_Features.csv")
-#raw_feat=list(raw_features['Raw Features'])
 
 
 predictor=['Provider', 'InscClaimAmtReimbursed_merged_sum','InscClaimAmtReimbursed_merged_max','InscClaimAmtReimbursed_merged_std',
