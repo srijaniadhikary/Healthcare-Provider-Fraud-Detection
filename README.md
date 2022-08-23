@@ -15,4 +15,4 @@ Prepared data from four unorganized datasets and performed EDA, data preprocessi
 * Based on Precision selected XGBoost Classifier as the best performing model and obtained Precision∼72% in out of time sample.
 * Deployed web application on Heroku platform to predict whether a provider is fraudulent or not.
 
-     *App link:* https://healthcare-provider-fraud.herokuapp.com/
+     **App link:** https://healthcare-provider-fraud.herokuapp.com/
